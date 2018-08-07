@@ -2,8 +2,8 @@ properties([parameters([string(name: 'Bucket_Name', defaultValue: 'prasadjenkins
 pipeline {
     agent {
         docker {
-            image 'devopscafe/maven-awscli'
-            args '-v /root/.m2:/root/.m2'
+            image ''
+            args ''
         }
     }
     stages {
